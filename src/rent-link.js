@@ -1,0 +1,1 @@
+new MutationObserver(()=>{const nav=document.querySelector('.side');if(!nav||nav.querySelector('.my-rent-link'))return;const a=document.createElement('a');a.className='nav my-rent-link';a.href='my-rentals.html';a.textContent='♡ 우리 반 대여 목록';nav.insertBefore(a,nav.lastElementChild)}).observe(document.getElementById('app'),{childList:true,subtree:true});
