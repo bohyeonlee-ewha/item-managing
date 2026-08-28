@@ -1,0 +1,1 @@
+.status{margin-top:9px;font-size:10px;font-weight:bold;color:#4eaf7a}.status.borrowed{color:#dc6f68}.status:before{content:'●';font-size:13px;margin-right:5px;vertical-align:-1px;color:#51b77e}.status.borrowed:before{color:#df756d}.secondary{background:#5bb58f}
